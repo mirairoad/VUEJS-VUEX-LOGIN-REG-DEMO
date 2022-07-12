@@ -1,0 +1,88 @@
+.welcome-title{
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--color-light-black);
+}
+.welcome {
+    text-align: center;
+    padding: 20px 0;
+  }
+  /* form styles */
+  .welcome form {
+    width: 300px;
+    margin: 20px auto;
+  }
+  .welcome label {
+    display: block;
+    margin: 20px 0 10px;
+  }
+  .welcome input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 40px;
+  border: 2px solid #eee;
+  outline: none;
+  color: #999;
+  margin: 10px auto;
+  font-size: 15px;
+}
+.welcome input:focus {
+  border: 2px solid var(--color-primary);
+        -webkit-box-shadow: 0px 0px 5px var(--color-primary);
+        -moz-box-shadow: 0px 0px 5px var(--color-primary);
+        box-shadow: 0px 0px 5px var(--color-primary);
+}
+  .welcome span{
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .welcome-button-hidden {
+    position: fixed;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  .welcome-button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 40px;
+  margin: 10px auto !important;
+  background-color: var(--color-primary);
+  margin: 10px auto;
+}
+.welcome-button:hover {
+  background-color: var(--color-primary-alternative);
+  transition: all 0.2s ease;
+}
+
+.welcome-button strong {
+  color: white;
+  font-size: 15px;
+
+}
+
+.welcome-oauth-button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 40px;
+  margin: 10px auto !important;
+  background-color: white;
+  margin: 10px auto;
+}
+.welcome-oauth-button:hover {
+  background-color: gray;
+  transition: all 0.2s ease;
+}
+
+.welcome-oauth-button strong {
+  color: black;
+  font-size: 15px;
+
+}
+
+.welcome-error{
+color: var(--color-primary);
+font-weight: 500;
+text-transform: capitalize;
+}
